@@ -27,7 +27,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <ul className="menu menu-sm dropdown-content bg-[#061665]/20 rounded-box z-1 mt-3 w-44 shadow">
+        <ul className="menu menu-sm dropdown-content bg-[#061665]/90 rounded-box z-1 mt-3 w-44 shadow">
           <li>
             <a className="text-base">Homepage</a>
           </li>
