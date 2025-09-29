@@ -1,10 +1,12 @@
+import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <header>
+      <header className="max-w-[1536px] mx-auto">
         <Navbar></Navbar>
+        <HeroSection />
       </header>
       <main>
         <h1>Main Content Section</h1>
