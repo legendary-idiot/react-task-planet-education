@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
       <header>
-        <h1>Header Section</h1>
+        <Navbar></Navbar>
       </header>
       <main>
         <h1>Main Content Section</h1>
