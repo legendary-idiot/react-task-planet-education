@@ -2,12 +2,11 @@ import NavLogo from "../../public/assets/Nav_Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-[#030A2E] shadow-sm px-6 py-4">
-      <div className="flex-1">
-        <a href="/">
-          <img src={NavLogo} className="w-28 h-auto object-cover" />
-        </a>
-      </div>
+    <div className="navbar bg-[#030A2E] shadow-sm px-6 py-4 justify-between">
+      <a href="/">
+        <img src={NavLogo} className="w-28 h-auto object-cover" />
+      </a>
+
       <div className="dropdown dropdown-end">
         <div className="flex-none">
           <button className="btn btn-square btn-ghost hover:bg-[#061665]/40">
@@ -27,7 +26,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <ul className="menu menu-sm dropdown-content bg-[#061665]/90 rounded-box z-1 mt-3 w-44 shadow">
+        <ul className="menu menu-sm dropdown-content bg-[#061665]/90 rounded-box mt-3 w-44 shadow z-30">
           <li>
             <a className="text-base">Homepage</a>
           </li>
