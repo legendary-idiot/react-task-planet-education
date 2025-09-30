@@ -1,9 +1,16 @@
 import React from "react";
+import Menu from "../utils/menu";
+import StudySection from "../components/StudySection";
+import ApplyNow from "../components/ApplyNow";
 
 const Home = () => {
   return (
     <div>
-      <h1>Welcome to HomePage</h1>
+      <Menu />
+      <section className="space-y-16">
+        <StudySection />
+        <ApplyNow />
+      </section>
     </div>
   );
 };
