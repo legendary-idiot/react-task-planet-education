@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../utils/menu";
+import Menu from "../utils/Menu";
 import StudySection from "../components/StudySection";
 import ApplyNow from "../components/ApplyNow";
 import CampusesSection from "../components/CampusesSection";
