@@ -1,6 +1,7 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,12 +10,10 @@ function App() {
         <Navbar></Navbar>
         <HeroSection />
       </header>
-      <main>
+      <main className="max-w-[1536px] mx-auto overflow-hidden">
         <Home />
       </main>
-      <footer>
-        <h1>Footer Section</h1>
-      </footer>
+      <Footer />
     </>
   );
 }
